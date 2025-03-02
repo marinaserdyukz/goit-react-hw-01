@@ -1,3 +1,5 @@
+
+
 import Profile from "../Profile/Profile";
 import userData from "/src/userData.json";
 import FriendList from "../FriendList/FriendList";
@@ -10,7 +12,7 @@ export default function App () {
 return (
 <>
 <Profile
-name={userData.username}
+username={userData.username}
 tag={userData.tag}
 location={userData.location}
 avatar={userData.avatar}
